@@ -47,7 +47,7 @@ export default function App() {
   }
 
   return (
-    <React.Fragment>
+    <>
       <button
         onClick={() => setShowPicker(true)}>
         ویرایش تاریخ و ساعت
@@ -71,7 +71,7 @@ export default function App() {
         onClose={() => setShowPicker(false)}
         highlightWeekends
       />
-    </React.Fragment>
+    </>
 
   );
 }
